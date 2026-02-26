@@ -4,95 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles.css" />
-    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
     <title>Jennie's Food Diary</title>
   </head>
 
   <body>
+    <div class="container">
     <header>
-      <h2>Jennie's Food Diary</h2>
+      <div class="header-inner">
+      <h2 class="brand">Jennie's Food Diary <span class="dot">.</span></h2>
       <nav>
-        <ul>
-          <li><a href="placeholder">Home</a></li>
-          <li><a href="placeholder">Food</a></li>
-          <li><a href="placeholder">Drinks</a></li>
-          <li><a href="placeholder">Want to Try List</a></li>
-        </ul>
+        <a href="placeholder">Home</a>
+        <a href="placeholder">Food</a>
+        <a href="placeholder">Drinks</a>
+        <a href="placeholder">Want to Try List</a>
       </nav>
+      </div>
     </header>
  
     <main>
-      <section>
+      <section class="hero">
+        <div class="hero-content">
         <h1>Welcome to my diary!</h1>
-        <img src="images/hero.jpg" alt="Photo of empty restaurant setting" height="600" width="1200">
-        <p>
+        <p class="hero-subhead">
           See my opinion on food, drinks, and all things eats.
         </p>
-        <a href="placeholder">Dig in and Learn More!</a>
+        <a href="placeholder" class="btn btn-dark">Dig in and Learn More!</a>
+        <a href="placeholder" class="btn btn-outline">Dig in and Learn More!</a>
+        </div>
+        
       </section>
   
-      <section>
-        <h2>Features</h2>
-        <p>
-          Check out some key features of my diary!
-        </p>
+      <section class="features-grid">
 
+        <div class="feature">
         <h3>Photos</h3>
-        <img src="images/photo.svg" alt="photo icon" height="100" width="100">
+        <img class=icon src="images/photo.svg" alt="photo icon" height="100" width="100">
         <p>See each detail of every dish captured through my eyes.</p>
+        </div>
 
+        <div class="feature">
         <h3>Reviews</h3>
-        <img src="images/ranking.svg" alt="star ranking icon" height="100" width="100">
+        <img class=icon src="images/ranking.svg" alt="star ranking icon">
         <p>All dishes will be reviewed on an overall 1 to 10 scale rating. I'll also have some subcategories like presentation.</p>
+        </div>
 
+        <div class="feature">
         <h3>Lists</h3>
-        <img src="images/list.svg" alt="list icon" height="100" width="100">
+        <img class=icon src="images/list.svg" alt="list icon" height="100" width="100">
         <p>Find my list of restaurants and cafes I've been wanting to try!</p>
+        </div>
+
       </section>
 
-      <section>
-        <h2>About Me</h2>
-        <img src="images/me.jpeg" alt="Photo of author (Jennie Hwang)" height="400" width="300">
-        <p>
+      <section class="featured">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-lede">
           Hi! My name is Jennie, and I am a (self) certified foodie. 
           Instead of keeping all the food to myself, I will share my favorite, 
           and not so favorite eats, with the world. Some food facts about me: 
           my favorite fruit is pomelo, and my favorite cuisine is Vietnamese food.
           Join me in documenting what has been on my plate recently!
         </p>
+
+        <img src="images/me.jpeg" alt="Photo of author (Jennie Hwang)" height="400" width="300">
+        
       </section>
 
-      <section>
+      <section class="secondary">
+        <div class="secondary-grid">
+
+        <div class="card">
         <h2>Meal of the Month</h2>
-        <img src="images/meal.JPG" alt="Bowl of Zha Jiang Mian Noodles" height="300" width="225">
+        <div class="card-image img-a"></div>
         <p>
           My favorite meal this month was this bowl of zha jiang mian from <a href="https://share.google/9iJkCMJ7jdtdgsIZE">Chin Up</a> in Madison, WI.  
         </p>
+        </div>
 
+        <div class="card">
         <h2>Drink of the Month</h2>
-        <img src="images/drink.jpeg" alt="Cups of coffee and matcha" height="300" width="225">
+        <div class="card-image img-b"></div>
         <p>
         My favorite drink was this black sesame latte (top left) from <a href="https://www.luckycat.cafe/">LUCKYCAT</a> in Chicago, IL.
         </p>
+        </div>
+
+        </div>
       </section>
 
       <section>
+        <div class="cta cta-inner">
         <h2>Want to learn more? Let's eat together!</h2>
-        <a href="placeholder">Join my mailing list</a>
+        <a href="placeholder" class="btn btn-dark">Join my mailing list</a>
+        </div>
       </section>
     </main>
 
-    <footer>
+      
+    <div class="site-footer">
+    <footer class="footer-inner">
       <p>&copy; All rights reserved</p>
       <nav>
         <ul>
-          <li><a href="placeholder">Food</a></li>
-          <li><a href="placeholder">Drinks</a></li>
-          <li><a href="placeholder">Want to Try List</a></li>
+          <a href="placeholder">Food</a>
+          <a href="placeholder">Drinks</a>
+          <a href="placeholder">Want to Try List</a>
         </ul>
       </nav>
     </footer>
+    </div>
 
+  </div>
+
+    
   </body>
 </html>
