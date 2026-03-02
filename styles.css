@@ -10,10 +10,15 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Sniglet, Arial, Helvetica, sans-serif;
   line-height: 1.5;
   color: #222;
   background: #fff;
+}
+
+p {
+  font-family: Dongle;
+  font-size: 20px;
 }
 
 a { color: inherit; text-decoration: none; }
@@ -27,7 +32,7 @@ a:hover { text-decoration: underline; }
 /* ===== Header ===== */
 .site-header {
   border-bottom: 1px solid #eee;
-  background: #fff;
+  background: #f1f0ff;
 }
 
 .header-inner {
@@ -52,7 +57,7 @@ a:hover { text-decoration: underline; }
   /* TODO B (Color):
      Make the dot a light blue accent color (choose a readable blue).
   */
-  color: rgb(113, 76, 245);
+  color: #717ec3;
 }
 
 .site-nav a {
@@ -146,8 +151,8 @@ a:hover { text-decoration: underline; }
      Make this an outlined button with a blue border and matching text.
      (e.g., border: 2px solid ...; color: ...; background: transparent)
   */
-  border: 2px solid blue;
-  color: purple;
+  border: 2px solid #717ec3;
+  color: #001a23;
   background-color: transparent;
 }
 
@@ -173,32 +178,26 @@ a:hover { text-decoration: underline; }
   */
   flex: 1;
   text-align: center;
+  border-radius: 25px;
+  border: 3px dashed #e3e1fa;
 }
 
 .icon {
   width: 56px;
   height: 56px;
-  border: 2px solid #ddd;
-  border-radius: 999px;
-  display: grid;
-  place-items: center;
-  margin: 0 auto 12px;
-  color: #666;
-  font-size: 22px;
 }
 
 /* ===== Featured content ===== */
 .featured {
   padding: 42px 0 36px;
-  background: #f7f7f7;
+  background: #f1f0ff;
 }
 
 .section-title {
   text-align: center;
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
 }
 
 .section-lede {
@@ -206,11 +205,11 @@ a:hover { text-decoration: underline; }
   max-width: 680px;
   margin: 10px auto 22px;
   color: #666;
-  font-size: 13px;
+  font-size: 20px;
 }
 
 .media {
-  background: #eaeaea;
+  background: #e3e1fa;
   border: 1px solid #ddd;
   height: 320px;
   display: grid;
@@ -255,15 +254,18 @@ a:hover { text-decoration: underline; }
 
 .card-text h3 {
   margin: 0 0 8px;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 16px;
   letter-spacing: 0.08em;
 }
 
 .card-text p {
   margin: 0 0 14px;
   color: #666;
-  font-size: 13px;
+  font-size: 20px;
+}
+
+.card-text a {
+  color:#717ec3;
 }
 
 .card-image {
@@ -288,7 +290,7 @@ a:hover { text-decoration: underline; }
 
 /* ===== CTA ===== */
 .cta {
-  background: #f7f7f7;
+  background: #e3e1fa;
   padding: 42px 0;
 }
 
@@ -305,7 +307,7 @@ a:hover { text-decoration: underline; }
 
 /* ===== Footer ===== */
 .site-footer {
-  background: #fafafa;
+  background: #f1f0ff;
   border-top: 1px solid #eee;
   padding: 24px 0;
 }
@@ -327,12 +329,12 @@ a:hover { text-decoration: underline; }
 .footer-left {
   max-width: 360px;
   color: #666;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .footer-left a { color: #3a88a8; }
 
-.footer-cols {
+.footer-col {
   display: flex;
   gap: 28px;
 }
@@ -349,5 +351,6 @@ a:hover { text-decoration: underline; }
   font-size: 12px;
   color: #666;
   margin: 6px 0;
+  text-transform: uppercase;
 }
 
